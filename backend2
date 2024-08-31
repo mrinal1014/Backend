@@ -1,0 +1,24 @@
+
+
+1.
+class Student:
+    def add_grade(self, grade):
+        self.grades.append(grade)
+
+    def get_average(self):
+        total = sum(self.grades)
+        count = len(self.grades)
+        return total / count if count > 0 else 0
+
+    def show_info(self):
+        print("Name:", self.name)
+        print("Grades:", self.grades)
+        print("Average:", self.get_average())
+2
+def join_strings(str1, str2):
+    return str1 + str2
+
+
+print(join_strings("Mrinal","Sahoo"))
+
+BACKEND WEEK
